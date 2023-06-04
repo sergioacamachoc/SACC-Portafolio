@@ -6,9 +6,7 @@ const Sidebar = () => {
       <div className="wrapper">
         <nav>
           <ul className="flex jc-sb">
-            <li>
-              <Link to={"/"}>Home</Link>
-            </li>
+            <li>{/* <Link to={"/"}>Home</Link> */}</li>
             <li>{/* <Link to="/2">2</Link> */}</li>
             <li>{/* <Link to=""></Link> */}</li>
             <li>{/* <Link to=""></Link> */}</li>
