@@ -1,0 +1,53 @@
+/*Colors*/
+
+.black {
+  color: black;
+}
+
+.l-black {
+  color: var(--l-black);
+}
+
+.green {
+  color: var(--green);
+}
+
+.light-green {
+  color: var(--light-green);
+}
+
+.white {
+  color: white;
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.white-bg {
+  background: white;
+}
+
+.green-bg {
+  background: var(--green);
+}
+
+.light-green-bg {
+  background-color: var(--light-green);
+}
+
+.gray-bg {
+  background: var(--gray);
+}
+
+.no-bg {
+  background: transparent;
+}
+
+.border-2-white {
+  border: 2px solid white;
+}
+
+.border-1-green {
+  border: 1px solid var(--green);
+}

@@ -1,0 +1,184 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/*displays*/
+
+.flex {
+  display: flex;
+}
+
+.flex.wrap {
+  flex-wrap: wrap;
+}
+
+.flex.column {
+  flex-direction: column;
+}
+
+.flex.column.reverse {
+  flex-direction: column-reverse;
+}
+
+.flex.row {
+  flex-direction: row;
+}
+
+.flex.row.reverse {
+  flex-direction: row-reverse;
+}
+
+.flex.jc-c {
+  justify-content: center;
+}
+
+.flex-jc-fs {
+  justify-content: flex-start;
+}
+
+.flex-jc-fe {
+  justify-content: flex-end;
+}
+
+.flex.jc-sb {
+  justify-content: space-between;
+}
+
+.flex.jc-se {
+  justify-content: space-evenly;
+}
+
+.flex.jc-sa {
+  justify-content: space-around;
+}
+
+.flex.ai-c {
+  align-items: center;
+}
+
+.flex.ai-fs {
+  align-items: flex-start;
+}
+
+.flex.ai-fe {
+  align-items: flex-end;
+}
+
+/*Widts*/
+.w100p {
+  width: 100%;
+}
+
+@media (min-width: 1201px) {
+  .desktop-w50p {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mobile-column {
+    flex-direction: column;
+  }
+
+  .mobile-column-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .desktop-w50p {
+    width: 100%;
+  }
+}
+
+/*Border Radius*/
+
+.br-5 {
+  border-radius: 5px;
+}
+
+.br-40 {
+  border-radius: 40px;
+}
+
+/*---------------*/
+.button {
+  width: 100%;
+  max-width: 224px;
+  padding: 18px 0;
+  text-align: center;
+  border-radius: 40px;
+  display: block;
+  font-size: 20px;
+}
+
+.button.btn-center {
+  margin: auto;
+}
+
+button {
+  border: none;
+}
+
+/*---------------*/
+.wrapper {
+  width: 90%;
+  margin: auto;
+  max-width: 1760px;
+}
+
+.wrapper._85p {
+  width: 85%;
+}
+
+.wrapper._75p {
+  width: 75%;
+}
+
+@media (min-width: 1001px) {
+  .desktop-only {
+    display: block;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: flex;
+  }
+
+  .left,
+  .right {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  .button {
+    font-size: 16px;
+  }
+
+  .wrapper {
+    width: 90% !important;
+  }
+}
+
+.splide {
+  visibility: visible !important;
+}
