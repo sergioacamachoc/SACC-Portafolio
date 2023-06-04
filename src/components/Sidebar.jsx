@@ -5,7 +5,7 @@ const Sidebar = () => {
     <div id="header">
       <div className="wrapper">
         <nav className="">
-          <ul className="flex jc-sb">
+          <ul className="flex jc-sa">
             <li>
               <Link to="/">Home</Link>
             </li>
