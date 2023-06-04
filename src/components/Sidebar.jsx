@@ -4,13 +4,14 @@ const Sidebar = () => {
   return (
     <div id="header">
       <div className="wrapper">
-        <nav>
+        <nav className="">
           <ul className="flex jc-sb">
-            <li>{/* <Link to={"/"}>Home</Link> */}</li>
-            <li>{/* <Link to="/2">2</Link> */}</li>
-            <li>{/* <Link to=""></Link> */}</li>
-            <li>{/* <Link to=""></Link> */}</li>
-            <li>{/* <Link to=""></Link> */}</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/2">2</Link>
+            </li>
           </ul>
         </nav>
       </div>
