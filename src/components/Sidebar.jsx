@@ -5,25 +5,31 @@ const Sidebar = () => {
     <div id="header">
       <div className="wrapper">
         <nav className="flex jc-sb">
-          <Link to="/" className="left">
-            <p className="f-24 black bold">
-              Sergio Camacho
-              <br />
-              <span className="f-18">Full Stack Web Developer</span>
-            </p>
+          <Link to="/" className="left f-32 l-black regular">
+            Sergio Camacho
+            <br />
+            <span className="f-20 bold">Full Stack Web Developer</span>
           </Link>
-          <ul className="flex jc-sa">
+          <ul className="flex jc-sa ai-c">
             <li>
-              <Link to="/about">ABOUT</Link>
+              <Link className="l-black medium" to="/about">
+                ABOUT
+              </Link>
             </li>
             <li>
-              <Link to="/projects">PROJECTS</Link>
+              <Link className="l-black medium" to="/projects">
+                PROJECTS
+              </Link>
             </li>
             <li>
-              <Link to="/two">SKILLS</Link>
+              <Link className="l-black medium" to="/two">
+                SKILLS
+              </Link>
             </li>
             <li>
-              <Link to="/two">CONTACT</Link>
+              <Link className="l-black medium" to="/two">
+                CONTACT
+              </Link>
             </li>
           </ul>
         </nav>
