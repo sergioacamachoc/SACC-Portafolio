@@ -1,11 +1,12 @@
 /*Colors*/
+$l-black: #333333;
 
 .black {
   color: black;
 }
 
 .l-black {
-  color: var(--l-black);
+  color: $l-black;
 }
 
 .green {

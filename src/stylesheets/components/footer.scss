@@ -1,10 +1,13 @@
 #footer {
   margin-top: 200px;
   width: 100%;
-  background: #d6fff5;
+  background: black;
   position: relative;
   bottom: 0;
   left: 0;
 
   padding: 30px;
+  ul {
+    width: 40%;
+  }
 }

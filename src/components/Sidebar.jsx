@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div id="header">
-      <div className="wrapper">
+      <div className="wrapper _85p">
         <nav className="flex jc-sb">
           <Link to="/" className="left f-32 l-black regular">
             Sergio Camacho
